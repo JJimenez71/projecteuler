@@ -13,7 +13,7 @@ def collatz(num):
 def main():
     longest_chain = 0
     starting_num = 0
-    for i in range(1, 1000001):
+    for i in range(1, 1000000):
         chain = collatz(i)
         if chain > longest_chain:
             longest_chain = chain
